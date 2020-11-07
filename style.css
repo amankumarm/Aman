@@ -192,3 +192,11 @@ height:100%
     display: none;
     height:100vh;
 }
+@media screen and (max-width:900px){
+    .outer{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
