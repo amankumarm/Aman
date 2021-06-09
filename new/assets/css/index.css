@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    color: aliceblue;
+    font-family:Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+}
+.def-pad{
+    padding: 1em 6em;
+}
+#main1{
+    background-color: #141628;
+    height: 100vh;
+}
+nav{
+    padding:1em;
+    padding-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+nav > span{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.nav_item{
+    flex-grow: 0.1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: medium;
+    color: rgb(228, 228, 228);
+}
+.nav_spans{
+    align-items: center;
+    height: 100%;
+    padding-top: 0.3em;
+    text-align: center;
+}
+@media screen and (max-width:900px){
+    .nav_item{
+        display: none;
+    }
+    .def-pad{
+        padding: 1em 2em;
+    }
+} 
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    height: 92%;
+}
+
+#inro_main{
+    flex-basis: 0.7;
+}
+
+#name{
+font-size:5em;  
+}
+#high{
+    color: #FD4370;
+}
+.intro_illus{
+    flex-basis: 0.3;
+    height: 50vh;
+    width: 40vw;
+
+}
+@media screen and (max-width:900px){
+
+    .intro_illus{
+        display: none;
+    }
+}
+.desc{
+    letter-spacing: 2px;
+    padding: 1.5em 0em ;
+
+}
+#work_btn{
+    background-color:#FD4370;
+    padding:1em 2em;
+    color: white;   
+    border: none;
+    border-radius:20px;
+}
+.test{
+    /* border: 1px solid white; */
+}
