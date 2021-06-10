@@ -11,6 +11,22 @@
     margin-top: 2em;
 }
 
+.view_proj{
+    width: 100%;
+    border: none;
+    background: #FD4370;
+    padding: 1.2em;
+    border-radius:8px;
+    white-space: nowrap;
+}
+.proj_desc{
+    max-width:50ch;
+    color: rgb(199, 199, 199);
+    font-size: 1.25em;
+    line-height: 1.6;
+    margin-top:-0.8em;
+
+}
 
 
 
