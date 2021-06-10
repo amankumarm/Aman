@@ -1,0 +1,17 @@
+@media screen and (max-width:900px){
+    .proj{
+    display: flex;
+    flex-direction: column-reverse;
+}   
+.proj_pic > img{
+    display: none;
+}
+
+.p-1{
+    margin-top: 2em;
+}
+
+
+
+
+}
