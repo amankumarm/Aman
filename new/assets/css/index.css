@@ -92,9 +92,9 @@ font-size:5em;
     border: none;
     border-radius:20px;
 }
-.test{ 
-    /* border: 1px solid white; */
-}
+/* .test{ 
+ border: 1px solid white; 
+} */    
 
 .line_header{
     font-size: 2em;
@@ -105,7 +105,7 @@ font-size:5em;
     background-color:#1B1E32 ;
     display: flex;
     flex-direction: column;
-    padding: 2em  3em;
+    padding: 4em  3em;
     /* margin: 0em 2em; */
     justify-content: space-between;
     padding-bottom: 0em;
