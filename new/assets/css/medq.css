@@ -30,6 +30,16 @@
 .intro_illus{
     display: none;
 }
+#main2{
+    height:120vh;
+    background-color:#1B1E32 ;
+    display: flex;
+    flex-direction: column;
+    padding: 4em  3em;
+    /* margin: 0em 2em; */
+    justify-content: space-between;
+    padding-bottom: 0em;
+}
 
 .about_me{
     width: 100%;

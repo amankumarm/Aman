@@ -92,6 +92,10 @@ font-size:5em;
     border: none;
     border-radius:20px;
 }
+#work_btn > a{
+    text-decoration: none;
+    color: white;
+} 
 /* .test{ 
  border: 1px solid white; 
 } */    
@@ -101,7 +105,7 @@ font-size:5em;
     padding-bottom:10px;
 }
 #main2{
-    height:100vh;
+    height:90vh;
     background-color:#1B1E32 ;
     display: flex;
     flex-direction: column;
@@ -110,6 +114,13 @@ font-size:5em;
     justify-content: space-between;
     padding-bottom: 0em;
 }
+#sw{
+    color: gainsboro !important;
+    font-size: medium;
+    float:right;
+    bottom: 0;
+    padding-top:0.5em ;
+    }
 
 .proj{
     display: flex;
@@ -176,7 +187,9 @@ word-spacing: 5px;
   width: 100%;
   height: 100%;
 }
-
+.swiper-container:hover{
+    cursor:grab
+}
 .swiper-slide {
     font-size: 18px;
 
@@ -218,6 +231,7 @@ word-spacing: 5px;
     height: 100vh;
     background-color:#141628 ;
     padding:7em 5em;
+    padding-top:2em ;
     /* padding-bottom: 0em; */
     align-items: center;
     flex-wrap: nowrap;
