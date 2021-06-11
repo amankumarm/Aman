@@ -121,6 +121,9 @@ font-size:5em;
     font-weight: bold;
 }
 
+#main2 > #i{
+    padding-bottom:3em ;
+} 
 
 .proj_det{
     display: flex;
@@ -222,6 +225,9 @@ word-spacing: 5px;
 
 .pic{
     flex-basis: 50%;
+    -webkit-filter: hue-rotate(12); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+      
     
 }
 .about_me{
@@ -244,13 +250,13 @@ word-spacing: 5px;
     border-top:5px solid  #FD4370;
     width: 4em;
     height: 0.01px;
-    margin-right:1em ;
+    margin-right:2em ;
 }
 #dash_s{
     border-top:5px solid  #FD4370;
     width: 2em;
     height: 0.01px;
-    margin-right:1em ;
+    margin-right:2em ;
 }
 #geta{
     padding-top:2em;
@@ -263,8 +269,25 @@ word-spacing: 5px;
     max-height: min-content;
 }
 
-.pic{
-    /* height:50%;
-    width:50%; */
+.key_w{
+    font-size: large;
+    font-weight: bold;
+}
+#bout>p{
+    font-size: large;
+    /* white-space: ; */
+}
 
+#main4{
+    background:#1B1E32;
+    height: 100vh;
+}
+
+#connect{
+    padding:6em 2em;
+}
+#connect1{
+    padding: 1.5em 0em;
+    font-size:3em;
+    padding-bottom:0em ;
 }
