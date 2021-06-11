@@ -57,5 +57,21 @@
     padding-bottom:0em ;
 }
 
-
+.smedia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+    justify-content: space-around;
+    width: 100%;
+}
+.smi{
+    background-color: #2c3049;
+    border-radius:5px ;
+    padding: 0.8em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    width: 10%;
+    justify-content: center;
+    }
 }
