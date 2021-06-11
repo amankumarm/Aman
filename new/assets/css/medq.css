@@ -31,4 +31,17 @@
     display: none;
 }
 
+.about_me{
+    width: 100%;
+    flex-grow:1 ;
+    padding:4em 2em ;
+    /* border: 2px solid red; */
+    padding-bottom: 0em;
+}
+#main3{
+    padding: 0em 1em;
+}
+.pic{
+    display: none;
+}
 }

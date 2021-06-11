@@ -9,6 +9,13 @@
 
 var first=0;
 
+var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
 // $(document).on('inview', '.swiper-container', function(event, isInView) {
 //     if (isInView && first==0) {
 //         console.log("IN VIEW")

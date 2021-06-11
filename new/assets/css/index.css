@@ -18,6 +18,7 @@ body{
     height: 100vh;
 }
 nav{
+    position: sticky;
     padding:1em;
     padding-top: 1.5em;
     display: flex;
@@ -25,6 +26,7 @@ nav{
     justify-content: space-between;
     align-content: space-between;
     top:0;  
+    overflow: hidden;
 }
 nav > span{
     font-size: x-large;
@@ -212,10 +214,57 @@ word-spacing: 5px;
     flex-direction: row;
     height: 100vh;
     background-color:#141628 ;
-    padding:5em;
+    padding:7em 5em;
+    padding-bottom: 0em;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+.pic{
+    flex-basis: 50%;
+    
+}
 .about_me{
-    border: 1px solid red;
     width: 100%;
+    padding:0em 4em ;
+    flex-basis: 60%;
+}
+
+
+#i{
+    display:flex;
+    flex-direction:row;
+    /* justify-content: cente   r; */
+    align-items: center;
+    color: rgb(199, 199, 199);
+    font-weight: bold;
+}
+
+#dash_l{
+    border-top:5px solid  #FD4370;
+    width: 4em;
+    height: 0.01px;
+    margin-right:1em ;
+}
+#dash_s{
+    border-top:5px solid  #FD4370;
+    width: 2em;
+    height: 0.01px;
+    margin-right:1em ;
+}
+#geta{
+    padding-top:2em;
+    padding-bottom: 4em;
+}
+#bout > p{
+    padding: 3em 0em;
+    line-height: 2em;
+    font-size: 1em;
+    max-height: min-content;
+}
+
+.pic{
+    /* height:50%;
+    width:50%; */
+
 }
